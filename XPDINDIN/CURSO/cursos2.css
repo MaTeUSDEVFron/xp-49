@@ -1,0 +1,344 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+}
+
+body {
+    background: white;
+    height: 100vh;
+    margin: 0;
+
+}
+
+
+
+/* ------------- */
+.page-header {
+    background: #419488;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    align-items: center;
+
+}
+
+#logo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+nav {
+    display: flex;
+    color: #FDFDFD;
+    width: 100%;
+    justify-content: center;
+}
+
+header ul li {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header ul li a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+    text-decoration: none;
+    padding: 25PX;
+}
+
+header ul li a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    padding: 0;
+}
+
+/* Conteúdo da Pagina Main */
+
+.page-main {
+
+    background: white;
+
+}
+
+.titulo {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.titulo h1 {
+    margin: 0;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #FF4081;
+}
+
+.titulo h5 {
+    margin: 0;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    color: #555555;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.linha {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 5px;
+    background: #C4C4C4;
+    width: 80%;
+}
+
+
+.baner {
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: 0;
+    justify-content: center;
+}
+
+
+.coluna_baner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    align-items: flex-start;
+    margin-left: 100px;
+    text-align: justify;
+    width: 50%;
+
+
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.baner img {
+    width: 100%;
+    height: auto;
+}
+
+
+.coluna_baner h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    color: #FF4081;
+
+
+}
+
+.coluna_baner p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+
+}
+
+.coluna_baner a {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: #2E948A;
+    border-radius: 62px;
+    padding: 10px;
+    text-decoration: none;
+    width: fit-content;
+    margin: 10px;
+
+}
+
+/* Footer */
+.page-footer {
+    background: #419488;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    position: relative;
+
+}
+
+.img_footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.container_footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+#link_footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listas_footer a {
+    display: flex;
+    justify-content: center;
+    color: #FDFDFD;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.listas_footer {
+    color: #FDFDFD;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.listas_footer li {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FDFDFD;
+    display: flex;
+    justify-content: center;
+}
+
+
+#link_footer .listas_footer li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 62px;
+    margin: 20px;
+    font: white;
+    text-decoration: none;
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+
+    .page-header {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    section {
+        width: 90%;
+        margin: auto;
+        padding: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .baner {
+        flex-direction: column;
+    }
+
+    .linha {
+        width: 90%;
+
+    }
+
+    .coluna_baner {
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .coluna_baner a {
+        display: flex;
+        width: 100%;
+        padding: 0;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .coluna_baner h1 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .coluna_baner p {
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+    }
+
+    .page-footer {
+        flex-direction: column;
+    }
+
+    .listas_footer {
+        width: 100%;
+    }
+}

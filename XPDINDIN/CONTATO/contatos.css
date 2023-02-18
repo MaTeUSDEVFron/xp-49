@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+}
+
+body {
+    background: white;
+    height: 100vh;
+    margin: 0;
+
+}
+
+
+
+/* ------------- */
+.header_pagina {
+    background: #419488;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    align-items: center;
+
+}
+
+#logo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+nav {
+    display: flex;
+    color: #FDFDFD;
+    width: 100%;
+    justify-content: center;
+}
+
+header ul li {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header ul li a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+    text-decoration: none;
+    padding: 25PX;
+}
+
+header ul li a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    padding: 0;
+}
+
+/* Conteúdo da Pagina Main */
+
+.pagina_main {
+
+    background: white;
+
+}
+
+h1 {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+}
+
+.forms {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-contato {
+    width: 100%;
+    max-width: 444px;
+}
+
+.forms img {
+    display: flex;
+    width: 100%;
+    padding: auto;
+    justify-content: center;
+}
+
+/* .form img {
+    display: flex;
+   width: 100%;
+    height: auto; 
+} */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+}
+
+input[type=submit] {
+    background-color: #FF4081;
+    color: white;
+    width: fit-content;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+/* Footer */
+.gagina_footer {
+    background: #419488;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    position: relative;
+
+}
+
+.img_footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.container_footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+#link_footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listas_footer a {
+    display: flex;
+    justify-content: center;
+    color: #FDFDFD;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.listas_footer {
+    color: #FDFDFD;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.listas_footer li {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FDFDFD;
+    display: flex;
+    justify-content: center;
+}
+
+
+#link_footer .listas_footer li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 62px;
+    margin: 20px;
+    font: white;
+    text-decoration: none;
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+
+    .header_pagina {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    form {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    .forms {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    h1 {
+        margin: 0;
+        padding-top: 35px;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .gagina_footer {
+        flex-direction: column;
+    }
+
+    .listas_footer {
+        width: 100%;
+    }
+}

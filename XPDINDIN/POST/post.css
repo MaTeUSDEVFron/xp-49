@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+}
+
+body {
+    background: #e4e4e4;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.header_pagina {
+    background: #419488;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    align-items: center;
+
+}
+
+#logo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+nav {
+    display: flex;
+    color: #FDFDFD;
+    width: 100%;
+    justify-content: center;
+}
+
+header ul li {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header ul li a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+    text-decoration: none;
+    padding: 25PX;
+}
+
+header ul li a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    padding: 0;
+}
+
+/* Conteúdo da Pagina Main */
+
+.pagina_main {
+    background: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* -------------- */
+
+.poster {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 111px;
+    margin-bottom: 111px;
+
+}
+
+.poster img {
+    width: 100%;
+    height: auto;
+    background: #C4C4C4;
+
+}
+
+p {
+    display: flex;
+    text-align: justify;
+    font-style: bold;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.anuciado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.anuciado h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    color: #FF4081;
+    text-align: center;
+}
+
+#date {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+    margin-bottom: 74px;
+
+    display: flex;
+    align-items: center;
+
+    color: #9D9D9D;
+}
+
+/* .imagem {
+    display: flex;
+    width: 500px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    background: #C4C4C4;
+} */
+.texto {
+    background: #F7F7F7;
+}
+
+.poster .texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.texto h1 {
+    font-weight: 700;
+    font-size: 27px;
+    color: #009688;
+}
+
+/* -------- */
+
+.curso1 {
+    display: flex;
+    background: #F7F7F7;
+    height: auto;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mais_titulo {
+    width: 100%;
+    height: auto;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    background: #F7F7F7;
+    color: #FF4081;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+
+.col_curso {
+    display: flex;
+    /*     width: 30%; */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.col_curso .imsg_cur {
+    display: flex;
+    align-self: center;
+}
+
+.col_curso h5 {
+    display: flex;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FF4081;
+    margin-top: 40px;
+    margin-bottom: 0;
+
+}
+
+.col_curso p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.col_curso a {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    background: #FF4081;
+    border-radius: 62px;
+    padding: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Footer */
+.gagina_footer {
+    background: #419488;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    position: relative;
+
+}
+
+.img_footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.container_footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+#link_footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listas_footer a {
+    display: flex;
+    justify-content: center;
+    color: #FDFDFD;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.listas_footer {
+    color: #FDFDFD;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.listas_footer li {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FDFDFD;
+    display: flex;
+    justify-content: center;
+}
+
+
+#link_footer .listas_footer li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 62px;
+    margin: 20px;
+    font: white;
+    text-decoration: none;
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+
+    .header_pagina {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .poster {
+        width: 90%;
+    }
+
+    .curso1 .col_curso {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .gagina_footer {
+        flex-direction: column;
+    }
+
+    .listas_footer {
+        width: 100%;
+    }
+}
